@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE@
+Description: A portable implementation of NOP instruction
+Version: @VERSION@
+Libs: -L${libdir} -lnop
+Cflags: -I${includedir}
